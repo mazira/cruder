@@ -1,0 +1,28 @@
+{
+	"name": "cruder",
+	"description": "CRUD interface generator for node.js",
+	"keywords": ["api", "CRUD", "RESTful", "cloud"],
+	"version": "0.0.1",
+	"author": "Uday Verma <uv@mazira.com>",
+	"contributors": [],
+	"repository": {
+		"type": "git",
+		"url": "http://github.com/mazira/cruder"
+	},
+	"main": "./lib/cruder.js",
+	"scripts": {
+	},
+	"engines": {
+		"node": ">= 0.8.x"
+	},
+	"dependencies": {
+		"mysql": ">= 2.0.0-alpha5",
+		"async": ">= 0.1.9",
+		"lodash": ">= 1.0.0-rc.3"
+	},
+	"devDependencies": {
+		"mocha": "1.5.0",
+		"should": "1.2.0",
+		"nock": "0.13.4"
+	}
+}
